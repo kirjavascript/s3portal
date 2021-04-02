@@ -1,0 +1,272 @@
+{
+    "Flex": 2,
+    "name": "Sonic 3",
+    "node": "195666d2-f554-4b26-a04d-e7595514db0a",
+    "objects": [
+        {
+            "name": "sonic 3",
+            "children": [
+                {
+                    "uuid": "20bed7e2-e339-4088-88a4-c087f133c6a2",
+                    "format": "Sonic 3&K Object.js",
+                    "name": "big ring",
+                    "palettes": [],
+                    "art": {
+                        "path": "General/Sprites/SS Entry/Entry Ring.bin",
+                        "compression": "Uncompressed",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "General/Sprites/SS Entry/Map - Entry Ring.asm",
+                        "label": ""
+                    },
+                    "dplcs": {
+                        "enabled": true,
+                        "path": "General/Sprites/SS Entry/DPLC - Special Stage Entry Ring.asm",
+                        "label": ""
+                    }
+                },
+                {
+                    "format": "Sonic 3&K Player.js",
+                    "name": "Sonic",
+                    "palettes": [
+                        {
+                            "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                            "length": 1
+                        }
+                    ],
+                    "art": {
+                        "path": "General/Sprites/Sonic/Art/Sonic.bin",
+                        "compression": "Uncompressed",
+                        "accessor": "",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "General/Sprites/Sonic/Map - Sonic.asm",
+                        "format": "Sonic 3&K",
+                        "customDefinition": "",
+                        "accessor": "",
+                        "label": ""
+                    },
+                    "dplcs": {
+                        "enabled": true,
+                        "path": "General/Sprites/Sonic/Sonic pattern load cues.asm",
+                        "format": "Sonic 2/3&K",
+                        "customDefinition": "",
+                        "accessor": "",
+                        "label": ""
+                    },
+                    "animations": {
+                        "path": "",
+                        "prefix": "",
+                        "accessor": ""
+                    },
+                    "uuid": "195666d2-f554-4b26-a04d-e7595514db0a"
+                },
+                {
+                    "format": "Sonic 3&K Player.js",
+                    "name": "Tails",
+                    "palettes": [
+                        {
+                            "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                            "length": 1
+                        }
+                    ],
+                    "art": {
+                        "path": "General/Sprites/Tails/Art/Tails.bin",
+                        "compression": "Uncompressed",
+                        "accessor": "",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "General/Sprites/Tails/Map - Tails.asm",
+                        "format": "Sonic 3&K",
+                        "customDefinition": "",
+                        "accessor": ""
+                    },
+                    "dplcs": {
+                        "enabled": true,
+                        "path": "General/Sprites/Tails/Tails pattern load cues.asm",
+                        "format": "Sonic 2/3&K",
+                        "customDefinition": "",
+                        "accessor": ""
+                    },
+                    "animations": {
+                        "path": "",
+                        "prefix": "",
+                        "accessor": ""
+                    },
+                    "uuid": "802134a7-9836-4928-8fe2-506e1859d4d5"
+                },
+                {
+                    "format": "Sonic 3&K Player.js",
+                    "name": "Knuckles",
+                    "palettes": [
+                        {
+                            "path": "General/Sprites/Knuckles/Palettes/Main.bin",
+                            "length": 1
+                        }
+                    ],
+                    "art": {
+                        "path": "General/Sprites/Knuckles/Art/Knuckles.bin",
+                        "compression": "Uncompressed",
+                        "accessor": "",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "General/Sprites/Knuckles/Map - Knuckles.asm",
+                        "format": "Sonic 3&K",
+                        "customDefinition": "",
+                        "accessor": ""
+                    },
+                    "dplcs": {
+                        "enabled": true,
+                        "path": "General/Sprites/Knuckles/Knuckles pattern load cues.asm",
+                        "format": "Sonic 2/3&K",
+                        "customDefinition": "",
+                        "accessor": ""
+                    },
+                    "animations": {
+                        "path": "",
+                        "prefix": "",
+                        "accessor": ""
+                    },
+                    "uuid": "2a071fde-d70e-4f60-be51-b5f46d1457b7"
+                },
+                {
+                    "format": "Sonic 3&K Object.js",
+                    "name": "springs",
+                    "palettes": [
+                        {
+                            "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                            "length": 1
+                        }
+                    ],
+                    "art": {
+                        "path": "General/Sprites/Level Misc/Vertical Spring.bin",
+                        "compression": "Nemesis",
+                        "accessor": "",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "General/Sprites/Level Misc/Map - Spring.asm",
+                        "format": "Sonic 3&K",
+                        "customDefinition": "",
+                        "label": ""
+                    },
+                    "dplcs": {
+                        "enabled": false,
+                        "path": "",
+                        "format": "Sonic 1",
+                        "customDefinition": "",
+                        "label": ""
+                    },
+                    "animations": {
+                        "path": "",
+                        "prefix": ""
+                    },
+                    "uuid": "a701569b-a2b0-4069-8547-9b6d3ae2c3d0",
+                    "expanded": true
+                },
+                {
+                    "format": "Sonic 3&K Object.js",
+                    "name": "rhino",
+                    "palettes": [
+                        {
+                            "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                            "length": 1
+                        }
+                    ],
+                    "art": {
+                        "path": "General/Sprites/Rhino/Rhino.bin",
+                        "compression": "Uncompressed",
+                        "accessor": "",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "General/Sprites/Rhino/Map - RhinoBot.asm",
+                        "format": "Sonic 3&K",
+                        "customDefinition": "",
+                        "label": ""
+                    },
+                    "dplcs": {
+                        "enabled": true,
+                        "path": "General/Sprites/Rhino/DPLC - RhinoBot.asm",
+                        "format": "Sonic 1",
+                        "customDefinition": "",
+                        "label": ""
+                    },
+                    "animations": {
+                        "path": "",
+                        "prefix": ""
+                    },
+                    "uuid": "622a9628-047c-4170-bd97-7f6c944f4dc8",
+                    "expanded": true
+                },
+                {
+                    "format": "Sonic 3&K Object.js",
+                    "name": "rhino asm",
+                    "palettes": [
+                        {
+                            "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                            "length": 1
+                        }
+                    ],
+                    "art": {
+                        "path": "General/Sprites/Rhino/Rhino.bin",
+                        "compression": "Uncompressed",
+                        "accessor": "",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "RhinoBot.asm",
+                        "format": "Sonic 3&K",
+                        "customDefinition": "",
+                        "label": ""
+                    },
+                    "dplcs": {
+                        "enabled": true,
+                        "path": "DPLCRhinoBot.asm",
+                        "format": "Sonic 1",
+                        "customDefinition": "",
+                        "label": ""
+                    },
+                    "animations": {
+                        "path": "",
+                        "prefix": ""
+                    },
+                    "uuid": "60a48b4d-8687-4c90-88df-fc9c5b17015a",
+                    "expanded": true
+                },
+                {
+                    "uuid": "0bd1978c-452f-4e91-848d-809cc358dfba",
+                    "format": "Sonic 3&K Player.js",
+                    "name": "snowboard",
+                    "palettes": [
+                        {
+                            "path": "Levels/ICZ/Palettes/2.bin",
+                            "length": 3
+                        }
+                    ],
+                    "art": {
+                        "path": "General/Sprites/Snowboard/Snowboard.bin",
+                        "compression": "Uncompressed",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "General/Sprites/Snowboard/Map - Snowboard.asm",
+                        "label": ""
+                    },
+                    "dplcs": {
+                        "enabled": true,
+                        "path": "General/Sprites/Snowboard/DPLC - Snowboard.asm",
+                        "label": ""
+                    }
+                }
+            ],
+            "isDirectory": true,
+            "expanded": true,
+            "uuid": "8749e7fe-2c33-4481-b5fa-038cba51e2d3"
+        }
+    ]
+}
