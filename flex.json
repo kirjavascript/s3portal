@@ -1,11 +1,56 @@
 {
     "Flex": 2,
     "name": "Sonic 3",
-    "node": "195666d2-f554-4b26-a04d-e7595514db0a",
+    "node": "a587b83d-0ae5-411e-82f5-73fdf219aaed",
     "objects": [
+        {
+            "uuid": "a587b83d-0ae5-411e-82f5-73fdf219aaed",
+            "format": "Sonic 3&K Object.js",
+            "name": "portals",
+            "palettes": [],
+            "art": {
+                "path": "portals/art.bin",
+                "compression": "Kosinski-M",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "portals/mappings.bin",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "label": ""
+            }
+        },
         {
             "name": "sonic 3",
             "children": [
+                {
+                    "uuid": "93a587b8-3d0a-4501-9e42-f573fdf219aa",
+                    "format": "Sonic 2.js",
+                    "name": "hadoken",
+                    "palettes": [
+                        {
+                            "path": "../../sonic/development/portal_svn/s2portal/art/palettes/SonicAndTails.bin",
+                            "length": 1
+                        }
+                    ],
+                    "art": {
+                        "path": "../../sonic/development/portal_svn/s2portal/portal/nem.bin",
+                        "compression": "Nemesis",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "../../sonic/development/portal_svn/s2portal/portal/map.bin",
+                        "label": ""
+                    },
+                    "dplcs": {
+                        "enabled": false,
+                        "path": "",
+                        "label": ""
+                    }
+                },
                 {
                     "uuid": "20bed7e2-e339-4088-88a4-c087f133c6a2",
                     "format": "Sonic 3&K Object.js",
