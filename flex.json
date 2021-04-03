@@ -1,8 +1,28 @@
 {
     "Flex": 2,
     "name": "Sonic 3",
-    "node": "a587b83d-0ae5-411e-82f5-73fdf219aaed",
+    "node": "b2700e8a-2398-4ce7-a6c8-c6d61fcd812b",
     "objects": [
+        {
+            "uuid": "b2700e8a-2398-4ce7-a6c8-c6d61fcd812b",
+            "format": "Sonic 1.js",
+            "name": "object",
+            "palettes": [],
+            "art": {
+                "path": "General/Sprites/Title Card/Title Card SK Zone.bin",
+                "compression": "Kosinski-M",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "label": ""
+            }
+        },
         {
             "uuid": "a587b83d-0ae5-411e-82f5-73fdf219aaed",
             "format": "Sonic 3&K Object.js",
@@ -10,7 +30,7 @@
             "palettes": [],
             "art": {
                 "path": "portals/art.bin",
-                "compression": "Nemesis",
+                "compression": "Kosinski-M",
                 "offset": 0
             },
             "mappings": {

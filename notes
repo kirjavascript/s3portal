@@ -1,10 +1,14 @@
 Sonic_Control
 loc_10C36
 Create_New_Sprite
-Obj_TitleCardRedBanner
+Obj_TitleCardInit / Obj_TitleCardRedBanner / loc_2D920
+
+PLC_01
+	; plreq ArtTile_Monitors + $3C, Art_Portal
 
 hado:
 
 
 art_portal
 map_portal
+invidious.fdn.fr
