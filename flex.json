@@ -10,7 +10,7 @@
             "palettes": [],
             "art": {
                 "path": "portals/art.bin",
-                "compression": "Kosinski-M",
+                "compression": "Nemesis",
                 "offset": 0
             },
             "mappings": {
