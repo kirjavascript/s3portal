@@ -12,7 +12,7 @@ art_portal
 map_portal
 
 edit & knuckles text
-finalise controls for sonic / shields
+finalise controls for sonic / shields (remove from spindash)
 /* change main characrer to always sonic */
 /* load portal art in PLC */
 /* level select force sonic */
