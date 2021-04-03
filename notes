@@ -8,12 +8,21 @@ PLC_01
 
 hado:
 
-
 art_portal
 map_portal
 
-change main characrer to always sonic
-load portal art in a request queue
+edit & knuckles text
+/* change main characrer to always sonic */
+/* load portal art in PLC */
+/* level select force sonic */
+/* jump to level select from titlescreen */
 
-level select force sonic
-jump to level select from titlescreen
+    ; uncompressed
+    ; move.l	#Art_portal,d1
+    ; move.w	#$A000,d2 ; F400 D280 A000
+    ; move.w	#$100,d3 ; words
+    ; jsr	(Add_To_DMA_Queue).l
+
+    ; lea	(Art_Portal).l,a1
+    ; move.w	#$A000,d2
+    ; jsr	(Queue_Kos_Module).l
