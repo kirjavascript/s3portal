@@ -1,20 +1,20 @@
 {
     "Flex": 2,
     "name": "Sonic 3",
-    "node": "a587b83d-0ae5-411e-82f5-73fdf219aaed",
+    "node": "b2700e8a-2398-4ce7-a6c8-c6d61fcd812b",
     "objects": [
         {
             "uuid": "b2700e8a-2398-4ce7-a6c8-c6d61fcd812b",
-            "format": "Sonic 1.js",
-            "name": "object",
+            "format": "Sonic 3&K Object.js",
+            "name": "& knuckles",
             "palettes": [],
             "art": {
-                "path": "../../sonic/development/s2_hadouken/s3kext/res/h_art.bin",
-                "compression": "Uncompressed",
+                "path": "General/Title/Nemesis Art/SK ANDKnuckles.bin",
+                "compression": "Nemesis",
                 "offset": 0
             },
             "mappings": {
-                "path": "",
+                "path": "resources/andknuckles.asm",
                 "label": ""
             },
             "dplcs": {
@@ -72,6 +72,32 @@
                 "path": "",
                 "label": ""
             }
+        },
+        {
+            "isAbsolute": true,
+            "format": "Sonic 2.js",
+            "name": "s2sonic",
+            "palettes": [
+                {
+                    "path": "../../sonic/development/portal_svn/s2portal/art/palettes/SonicAndTails.bin",
+                    "length": 1
+                }
+            ],
+            "art": {
+                "path": "../../sonic/development/portal_svn/s2portal/art/uncompressed/Sonic's art.bin",
+                "compression": "Uncompressed",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "../../sonic/development/portal_svn/s2portal/mappings/sprite/Sonic.bin",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": true,
+                "path": "../../sonic/development/portal_svn/s2portal/mappings/spriteDPLC/Sonic.bin",
+                "label": ""
+            },
+            "uuid": "65127de1-80ee-4928-b9c6-8db02fbc5fc5"
         },
         {
             "name": "sonic 3",

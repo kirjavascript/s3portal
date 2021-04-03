@@ -11,4 +11,9 @@ hado:
 
 art_portal
 map_portal
-invidious.fdn.fr
+
+change main characrer to always sonic
+load portal art in a request queue
+
+level select force sonic
+jump to level select from titlescreen
