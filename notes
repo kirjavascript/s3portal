@@ -17,6 +17,7 @@ map_portal
 edit & knuckles text
 finalise controls for sonic / shields (remove from spindash)
 delete blobs at the right time
+fix MHZ1
 /* change main characrer to always sonic */
 /* load portal art in PLC */
 /* level select force sonic */
