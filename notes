@@ -6,6 +6,8 @@ Obj_TitleCardInit / Obj_TitleCardRedBanner / loc_2D920
 PLC_01
 	; plreq ArtTile_Monitors + $3C, Art_Portal
 
+		jsr	(Add_SpriteToCollisionResponseList).l
+
 hado:
 
 art_portal
