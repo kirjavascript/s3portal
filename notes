@@ -8,6 +8,8 @@ PLC_01
 
 		jsr	(Add_SpriteToCollisionResponseList).l
 Touch_Sizes
+Touch_ChkValue
+Touch_Enemy
 
 hado:
 
@@ -18,6 +20,8 @@ edit & knuckles text
 finalise controls for sonic / shields (remove from spindash)
 delete blobs at the right time
 fix MHZ1
+sound
+turret
 /* change main characrer to always sonic */
 /* load portal art in PLC */
 /* level select force sonic */
