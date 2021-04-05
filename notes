@@ -17,13 +17,14 @@ art_portal
 map_portal
 
 edit & knuckles text
-finalise controls for sonic / shields (remove from spindash)
+fixed width_pixles and height for displaying
 remove AIZ intro
 delete blobs at the right time
 fix MHZ1 / remove tails
 make HCZ 2 safe
 sound
 turret
+/* finalise controls for sonic / shields (remove from spindash) */
 /* change main characrer to always sonic */
 /* load portal art in PLC */
 /* level select force sonic */
