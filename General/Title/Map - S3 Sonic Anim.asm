@@ -1,3 +1,4 @@
+Map_TitleSonicAnim:		
 		dc.w word_4F96-Map_TitleSonicAnim
 		dc.w word_4FB0-Map_TitleSonicAnim
 		dc.w word_4FCA-Map_TitleSonicAnim

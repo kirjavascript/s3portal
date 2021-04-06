@@ -1,0 +1,54 @@
+Mono runtime detected.
+Operating system: Unix 5.10.7.3
+Opening INI file "/home/cake/dev/flex2_test/s3portal/SonPLN.ini"...
+Game type is S3K.
+Loading Sonic D...
+Loading plane mappings from file "General/Title/Enigma Map/S3 Sonic D.bin", using compression Kosinski...
+Loading 8x8 tiles from file "General/Title/Kosinski Art/S3 Sonic D.bin", using compression Nemesis...
+Loading palette file "General/Title/Palettes/S3 Sonic D.bin"...
+Source: 0 Destination: 0 Length: 16
+Unable to read file "General/Title/Enigma Map/S3 Sonic D.bin" with compression Kosinski:
+Unable to read file "General/Title/Kosinski Art/S3 Sonic D.bin" with compression Nemesis:
+System.AggregateException: One or more errors occurred. (A bit code prefix is already used for a complete bit code.) (An attempt was made to move the position before the beginning of the stream.) ---> SonicRetro.KensSharp.CompressionException: A bit code prefix is already used for a complete bit code.
+  at SonicRetro.KensSharp.Nemesis+DecodingCodeTreeNode.SetCode (System.Byte code, System.Int32 length, SonicRetro.KensSharp.Nemesis+NibbleRun nibbleRun) [0x0003d] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.KensSharp.Nemesis.DecodeHeader (System.IO.Stream input, System.IO.Stream output, SonicRetro.KensSharp.Nemesis+DecodingCodeTreeNode codeTree) [0x00034] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.KensSharp.Nemesis.Decode (System.IO.Stream input, System.IO.Stream output) [0x00021] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.KensSharp.Nemesis.Decompress (System.IO.Stream input, System.IO.Stream output) [0x0001c] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.KensSharp.Nemesis.Decompress (System.String sourceFilePath) [0x0000d] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.SonLVL.API.Compression.Decompress (System.String file, SonicRetro.SonLVL.API.CompressionType cmp) [0x0010e] in <59be87304c7240e3be4dd0470df10ae1>:0 
+  at SonicRetro.SonLVL.SonPLN.MainForm.LoadLevelTiles () [0x001a0] in <18cfb2b4404c42f99f69d0fe23742800>:0 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+   --- End of inner exception stack trace ---
+  at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks, System.Int32 millisecondsTimeout, System.Threading.CancellationToken cancellationToken) [0x001c8] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks, System.Int32 millisecondsTimeout) [0x00000] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at System.Threading.Tasks.Task.WaitAll (System.Threading.Tasks.Task[] tasks) [0x00000] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at System.Threading.Tasks.Parallel.Invoke (System.Threading.Tasks.ParallelOptions parallelOptions, System.Action[] actions) [0x0029c] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+--- End of stack trace from previous location where exception was thrown ---
+
+  at System.Threading.Tasks.Parallel.ThrowSingleCancellationExceptionOrOtherException (System.Collections.ICollection exceptions, System.Threading.CancellationToken cancelToken, System.Exception otherException) [0x0000b] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at System.Threading.Tasks.Parallel.Invoke (System.Threading.Tasks.ParallelOptions parallelOptions, System.Action[] actions) [0x002b9] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at System.Threading.Tasks.Parallel.Invoke (System.Action[] actions) [0x00000] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at SonicRetro.SonLVL.SonPLN.MainForm.backgroundLevelLoader_DoWork (System.Object sender, System.ComponentModel.DoWorkEventArgs e) [0x00029] in <18cfb2b4404c42f99f69d0fe23742800>:0 
+---> (Inner Exception #0) SonicRetro.KensSharp.CompressionException: A bit code prefix is already used for a complete bit code.
+  at SonicRetro.KensSharp.Nemesis+DecodingCodeTreeNode.SetCode (System.Byte code, System.Int32 length, SonicRetro.KensSharp.Nemesis+NibbleRun nibbleRun) [0x0003d] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.KensSharp.Nemesis.DecodeHeader (System.IO.Stream input, System.IO.Stream output, SonicRetro.KensSharp.Nemesis+DecodingCodeTreeNode codeTree) [0x00034] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.KensSharp.Nemesis.Decode (System.IO.Stream input, System.IO.Stream output) [0x00021] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.KensSharp.Nemesis.Decompress (System.IO.Stream input, System.IO.Stream output) [0x0001c] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.KensSharp.Nemesis.Decompress (System.String sourceFilePath) [0x0000d] in <33a8bdb15e9a4ad8b5d0c26fa3228fcf>:0 
+  at SonicRetro.SonLVL.API.Compression.Decompress (System.String file, SonicRetro.SonLVL.API.CompressionType cmp) [0x0010e] in <59be87304c7240e3be4dd0470df10ae1>:0 
+  at SonicRetro.SonLVL.SonPLN.MainForm.LoadLevelTiles () [0x001a0] in <18cfb2b4404c42f99f69d0fe23742800>:0 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <efe941bb62534dc3a62ceb1a818964a0>:0 <---
+
+---> (Inner Exception #1) System.IO.IOException: An attempt was made to move the position before the beginning of the stream.
+  at System.IO.MemoryStream.Seek (System.Int64 offset, System.IO.SeekOrigin loc) [0x0004e] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at SonicRetro.KensSharp.Kosinski.DecodeInternal (System.IO.Stream source, System.IO.Stream destination, System.Int64& decompressedBytes) [0x000c0] in <b41b17a432f74f37b886139adca1bfe1>:0 
+  at SonicRetro.KensSharp.Kosinski.Decode (System.IO.Stream source, System.IO.Stream destination) [0x00003] in <b41b17a432f74f37b886139adca1bfe1>:0 
+  at SonicRetro.KensSharp.Kosinski.Decompress (System.IO.Stream input, System.IO.Stream output) [0x0001c] in <b41b17a432f74f37b886139adca1bfe1>:0 
+  at SonicRetro.KensSharp.Kosinski.Decompress (System.String sourceFilePath) [0x0000d] in <b41b17a432f74f37b886139adca1bfe1>:0 
+  at SonicRetro.SonLVL.API.Compression.Decompress (System.String file, SonicRetro.SonLVL.API.CompressionType cmp) [0x0010e] in <59be87304c7240e3be4dd0470df10ae1>:0 
+  at SonicRetro.SonLVL.SonPLN.MainForm.LoadLevelLayout () [0x000ff] in <18cfb2b4404c42f99f69d0fe23742800>:0 
+  at System.Threading.Tasks.Task.InnerInvoke () [0x0000f] in <efe941bb62534dc3a62ceb1a818964a0>:0 
+  at System.Threading.Tasks.Task.Execute () [0x00000] in <efe941bb62534dc3a62ceb1a818964a0>:0 <---
+

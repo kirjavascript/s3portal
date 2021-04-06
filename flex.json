@@ -1,8 +1,33 @@
 {
     "Flex": 2,
     "name": "Sonic 3",
-    "node": "195666d2-f554-4b26-a04d-e7595514db0a",
+    "node": "b0c6b9e1-baa1-4e41-ae80-7abccf95b4b7",
     "objects": [
+        {
+            "uuid": "b0c6b9e1-baa1-4e41-ae80-7abccf95b4b7",
+            "format": "Sonic 3&K Object.js",
+            "name": "object",
+            "palettes": [
+                {
+                    "path": "",
+                    "length": 1
+                }
+            ],
+            "art": {
+                "path": "General/Title/Kosinski Art/S3 Sonic D.bin",
+                "compression": "Kosinski",
+                "offset": 0
+            },
+            "mappings": {
+                "path": "General/Title/Map - S3 Sonic Anim.asm",
+                "label": ""
+            },
+            "dplcs": {
+                "enabled": false,
+                "path": "",
+                "label": ""
+            }
+        },
         {
             "uuid": "b2700e8a-2398-4ce7-a6c8-c6d61fcd812b",
             "format": "Sonic 3&K Object.js",
