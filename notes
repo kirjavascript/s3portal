@@ -17,7 +17,7 @@ art_portal
 map_portal
 
 edit & knuckles text
-airroll
+/* airroll */
 rollstand
 remove AIZ intro
 delete blobs at the right time (just do after a certain number of frames)
@@ -25,11 +25,10 @@ fix MHZ1 / remove tails
 make HCZ 2 safe
 sound
 turret
-/* finalise controls for sonic / shields (remove from spindash) */
-/* change main characrer to always sonic */
-/* load portal art in PLC */
-/* level select force sonic */
 /* jump to level select from titlescreen */
+/* level select force sonic */
+/* load portal art in PLC */
+/* finalise controls for sonic / shields (remove from spindash) */
 
     ; uncompressed
     ; move.l	#Art_portal,d1
