@@ -17,16 +17,16 @@ art_portal
 map_portal
 
 camera / layer
-/* airroll */
-rollstand
-remove AIZ intro
+bump portals away from walls
 delete blobs at the right time (just do after a certain number of frames)
 fix MHZ1 / remove tails
 make HCZ 2 safe
+remove AIZ intro
+/* airroll */
+rollstand
 sound
 make enemies portalable
 debug HUD
-bump portals away from walls
 
     ; uncompressed
     ; move.l	#Art_portal,d1
