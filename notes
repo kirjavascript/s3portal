@@ -17,6 +17,7 @@ art_portal
 map_portal
 
 camera / layer
+adjust collision size
 bump portals away from walls
 delete blobs at the right time (just do after a certain number of frames)
 fix MHZ1 / remove tails
