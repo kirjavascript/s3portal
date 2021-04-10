@@ -11,6 +11,12 @@ Touch_Sizes
 Touch_ChkValue
 Touch_Enemy
 
+DrawTilesAsYouMove
+ScreenEvents -> also see where called
+    ; jmp (Reset_TileOffsetPositionActual).l
+    ; jmp (Apply_FGVScroll).l
+    ; jmp Refresh_PlaneDirect
+
 hado:
 
 art_portal
@@ -20,6 +26,7 @@ camera / layer
 bump portals away from walls
 delete blobs at the right time (just do after a certain number of frames)
 fix MHZ1 / remove tails
+CNZ1
 make HCZ 2 safe
 remove AIZ intro
 /* airroll */

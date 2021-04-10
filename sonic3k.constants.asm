@@ -304,7 +304,7 @@ H_scroll_amount			ds.w 1			; number of pixels camera scrolled horizontally in th
 V_scroll_amount			ds.w 1			; number of pixels camera scrolled vertically in the last frame * $100
 H_scroll_amount_P2		ds.w 1
 V_scroll_amount_P2		ds.w 1
-_unkEE08			ds.b 1			; this is actually unused
+Dirty_flag			ds.b 1			; this is actually unused
 			ds.b 1				; unused
 Scroll_lock			ds.b 1			; if this is set scrolling routines aren't called
 Scroll_lock_P2			ds.b 1
