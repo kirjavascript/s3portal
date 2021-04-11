@@ -12,7 +12,9 @@ Touch_ChkValue
 Touch_Enemy
 
 DrawTilesAsYouMove
+LevelLoop
 ScreenEvents -> also see where called
+    LBZ
     ; jmp (Reset_TileOffsetPositionActual).l
     ; jmp (Apply_FGVScroll).l
     ; jmp Refresh_PlaneDirect
@@ -22,8 +24,11 @@ hado:
 art_portal
 map_portal
 
+
 camera / layer
+keep you in the air+roll when you collide but there is portal delay!
 bump portals away from walls
+portals not next to each other
 delete blobs at the right time (just do after a certain number of frames)
 fix MHZ1 / remove tails
 CNZ1
