@@ -26,7 +26,12 @@ map_portal
 
 
 camera / layer
+    handle fg
+    handle bg
+    proximity
+    layer
 keep you in the air+roll when you collide but there is portal delay!
+add minimum speed when coming out of portal
 bump portals away from walls
 portals not next to each other
 delete blobs at the right time (just do after a certain number of frames)
