@@ -293,7 +293,7 @@ Save_pointer :=			*			; pointer to the active save slot in 1 player mode
 				ds.l 1			; Sonic 3 has a different address... So uh... Yes
 			ds.w 1				; unused
 Emerald_flicker_flag		ds.w 1			; controls the emerald flicker in save screen and special stage results.
-DebugRAM_const          ds.b $10
+DebugRAM                ds.b $10
 			ds.b $34			; unused
 Saved_data :=			*			; saved data from 1 player mode
 				ds.b $54		; Sonic 3 has a different address... So uh... Yes
