@@ -39,6 +39,7 @@ fix MHZ1 / remove tails
 CNZ1
 make HCZ 2 safe
 remove AIZ intro
+remove supersonic
 /* airroll */
 rollstand
 sound

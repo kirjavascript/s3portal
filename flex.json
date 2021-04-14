@@ -1,12 +1,12 @@
 {
     "Flex": 2,
     "name": "Sonic 3",
-    "node": "c4c0e085-ae7f-44de-87df-670abb46d84b",
+    "node": "05dfe90a-98a1-4770-a55b-1a5dd6789e70",
     "objects": [
         {
             "uuid": "c4c0e085-ae7f-44de-87df-670abb46d84b",
             "format": "Sonic 1.js",
-            "name": "object",
+            "name": "debugfont",
             "palettes": [],
             "art": {
                 "path": "portals/debugfont.bin",
@@ -171,6 +171,43 @@
                         "customDefinition": "",
                         "accessor": "",
                         "label": ""
+                    },
+                    "animations": {
+                        "path": "",
+                        "prefix": "",
+                        "accessor": ""
+                    },
+                    "uuid": "05dfe90a-98a1-4770-a55b-1a5dd6789e70"
+                },
+                {
+                    "format": "Sonic 3&K Player.js",
+                    "name": "Sonic+gun",
+                    "palettes": [
+                        {
+                            "path": "General/Sprites/Sonic/Palettes/SonicAndTails.bin",
+                            "length": 1
+                        }
+                    ],
+                    "art": {
+                        "path": "General/Sprites/Sonic/Art/SonicGun.bin",
+                        "compression": "Uncompressed",
+                        "accessor": "",
+                        "offset": 0
+                    },
+                    "mappings": {
+                        "path": "General/Sprites/Sonic/Map - SonicGun.asm",
+                        "format": "Sonic 3&K",
+                        "customDefinition": "",
+                        "accessor": "",
+                        "label": "Map_SuperSonic"
+                    },
+                    "dplcs": {
+                        "enabled": true,
+                        "path": "General/Sprites/Sonic/SonicGun pattern load cues.asm",
+                        "format": "Sonic 2/3&K",
+                        "customDefinition": "",
+                        "accessor": "",
+                        "label": "PLC_SuperSonic"
                     },
                     "animations": {
                         "path": "",
