@@ -32,7 +32,7 @@ camera / layer
     layer
 keep you in the air+roll when you collide but there is portal delay!
 add minimum speed when coming out of portal
-bump portals away from walls
+bump portals away from walls (and each other)
 portals not next to each other
 delete blobs at the right time (just do after a certain number of frames)
 fix MHZ1 / remove tails
