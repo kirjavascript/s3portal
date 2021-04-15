@@ -28,7 +28,6 @@ map_portal
 camera / layer
     handle fg
     handle bg
-    proximity
     layer
 keep you in the air+roll when you collide but there is portal delay!
 add minimum speed when coming out of portal
