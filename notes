@@ -26,14 +26,15 @@ map_portal
 
 
 camera / layer
-    handle fg
     handle bg
     layer
+    fg bug
+delete blobs at the right time (just do after a certain number of frames)
+bump portals away from walls (and each other)
 keep you in the air+roll when you collide but there is portal delay!
 add minimum speed when coming out of portal
-bump portals away from walls (and each other)
-portals not next to each other
-delete blobs at the right time (just do after a certain number of frames)
+portal flicker
+companion cube
 fix MHZ1 / remove tails
 CNZ1
 make HCZ 2 safe
@@ -43,7 +44,6 @@ remove supersonic
 rollstand
 sound
 make enemies portalable
-debug HUD
 
     ; uncompressed
     ; move.l	#Art_portal,d1
