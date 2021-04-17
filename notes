@@ -18,27 +18,31 @@ ScreenEvents -> also see where called
     ; jmp (Reset_TileOffsetPositionActual).l
     ; jmp (Apply_FGVScroll).l
     ; jmp Refresh_PlaneDirect
+SpawnLevelMainSprites
 
 hado:
 
 art_portal
 map_portal
 
+* Level Select
+* Air Roll
 
 camera / layer
     handle bg
     layer
     fg bug
+remove tails
+CNZ1
+make HCZ 2 safe
+remove AIZ intro
+remove supersonic
+
 bump portals away from walls (and each other)
 keep you in the air+roll when you collide but there is portal delay!
 add minimum speed when coming out of portal
 portal flicker
 companion cube
-fix MHZ1 / remove tails
-CNZ1
-make HCZ 2 safe
-remove AIZ intro
-remove supersonic
 /* airroll */
 rollstand
 sound
