@@ -32,16 +32,17 @@ camera / layer
     handle bg
     layer
     fg bug
-remove tails
-CNZ1
 make HCZ 2 safe
-remove AIZ intro
+remove AIZ intro / aiz intro audio
 remove supersonic
 
+fix when long width and short height camera dirty set
 bump portals away from walls (and each other)
-keep you in the air+roll when you collide but there is portal delay!
-add minimum speed when coming out of portal
-portal flicker
+sound
+
+    keep you in the air+roll when you collide but there is portal delay!
+    add minimum speed when coming out of portal
+    portal flicker
 companion cube
 /* airroll */
 rollstand
