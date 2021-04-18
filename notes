@@ -32,11 +32,10 @@ camera / layer
     handle bg
     layer
     fg bug
-make HCZ 2 safe
-remove AIZ intro / aiz intro audio
 remove supersonic
 
 fix when long width and short height camera dirty set
+    make the distance smaller asnyway
 bump portals away from walls (and each other)
 sound
 
