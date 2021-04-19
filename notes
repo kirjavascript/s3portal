@@ -32,12 +32,11 @@ camera / layer
     handle bg
     layer
     fg bug
-remove supersonic
+    fix some levels? launch base zone
 
-fix when long width and short height camera dirty set
-    make the distance smaller asnyway
 bump portals away from walls (and each other)
 sound
+    ; todo: kill portals
 
     keep you in the air+roll when you collide but there is portal delay!
     add minimum speed when coming out of portal
